@@ -1,3 +1,5 @@
+@import "../../styles/mixins";
+
 .nav-bar {
   width: 95%;
   height: 10%;
@@ -5,15 +7,42 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  font-size: 6pt;
-  margin: 5% 0;
+  padding: 5% 0;
 }
 
-.nav-element {
+.scroll-link {
   margin: 0 1em;
+  font-size: 12pt;
+  &:hover {
+    cursor: pointer;
+  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.active-scroll-link {
+  color: aquamarine;
 }
 
 .link {
   text-decoration: none;
   color: inherit;
+}
+
+.active-dot-1 {
+  @include active-dot;
+  background-color: #ff0027;
+}
+.active-dot-2 {
+  @include active-dot;
+  background-color: #02507e;
+}
+.active-dot-3 {
+  @include active-dot;
+  background-color: #ffb600;
+}
+
+.hidden {
+  display: none;
 }

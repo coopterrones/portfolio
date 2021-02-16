@@ -8,7 +8,7 @@ const MainPage = () => {
   return (
     <div className="main-page-wrapper">
       <Link to="/">
-        <img className="coop-logo" src={logo} height="100px" width="100px" />
+        <img className="coop-logo" src={logo} height="150px" width="150px" />
       </Link>
       <Nav />
     </div>
