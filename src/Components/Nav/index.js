@@ -1,6 +1,5 @@
 import React from "react";
 import "./Nav.scss";
-import * as Scroll from "react-scroll";
 import {
   Link,
   Element,
@@ -19,7 +18,8 @@ const Nav = () => {
         smooth={true}
         duration={500}
         className="scroll-link"
-        activeClass="active-scroll-link">
+        activeClass="active-scroll-link"
+        delay={1000}>
         skills
         <div className="active-dot-1 hidden"></div>
       </Link>
