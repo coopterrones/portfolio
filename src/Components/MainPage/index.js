@@ -3,6 +3,7 @@ import Nav from "../Nav/index";
 import logo from "../../Assets/logo.png";
 import "./MainPage.scss";
 import NarrativeCard from "../NarrativeCard/index";
+import BackgroundArt from "../BackgroundArt/index";
 import {
   Link,
   Element,
@@ -26,6 +27,7 @@ const MainPage = () => {
         <img className="coop-logo" src={logo} height="150px" width="150px" />
       </Link>
       <Nav />
+      <BackgroundArt />
       <NarrativeCard />
     </Element>
   );
