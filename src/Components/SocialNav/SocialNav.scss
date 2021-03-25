@@ -1,0 +1,10 @@
+.social-nav-container {
+  width: fit-content;
+  height: -moz-fit-content;
+  height: 2vh;
+  position: absolute;
+  -webkit-transform-origin: left top;
+  -webkit-transform: rotate(-90deg) translateX(-100%);
+  top: 50%;
+  right: 0px;
+}

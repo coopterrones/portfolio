@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "../Nav/index";
+import FooterNav from "../FooterNav/index";
 import "./MainPage.scss";
 import BackgroundArt from "../BackgroundArt/index";
 import {
@@ -10,10 +11,11 @@ import {
   scrollSpy,
   scroller,
 } from "react-scroll";
+import SocialNav from "../SocialNav/index";
 
 const MainPage = () => {
   return (
-    <Element name="main" className="main-page-wrapper">
+    <section name="main" className="main-page-wrapper">
       {/* <Link
         to="main"
         spy={true}
@@ -26,7 +28,9 @@ const MainPage = () => {
       </Link> */}
       <Nav />
       <BackgroundArt />
-    </Element>
+      <SocialNav></SocialNav>
+      <FooterNav></FooterNav>
+    </section>
   );
 };
 
