@@ -1,6 +1,5 @@
 import React from "react";
 import Nav from "../Nav/index";
-import logo from "../../Assets/logo.png";
 import "./MainPage.scss";
 import BackgroundArt from "../BackgroundArt/index";
 import {
