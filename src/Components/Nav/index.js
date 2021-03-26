@@ -9,10 +9,7 @@ const Nav = () => {
         placeholderLogo
         <div className="active-dot-1 hidden"></div>
       </Link>
-      <Link to="/contact" className="scroll-link">
-        contact
-        <div className="active-dot-3 hidden"></div>
-      </Link>
+      <a href="mailto:cooper.terrones@outlook.com?Subject=Hi Coop!">contact</a>
     </div>
   );
 };
