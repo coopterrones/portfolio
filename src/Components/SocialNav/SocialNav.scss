@@ -1,10 +1,18 @@
 .social-nav-container {
-  width: fit-content;
-  height: -moz-fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   height: 2vh;
   position: absolute;
-  -webkit-transform-origin: left top;
-  -webkit-transform: rotate(-90deg) translateX(-100%);
-  top: 50%;
+  writing-mode: vertical-rl;
+  width: fit-content;
+  height: 15vh;
+  top: 35vh;
   right: 0px;
+  margin-right: 2.5%;
+}
+
+.social-link {
+  transform: rotate(-180deg);
+  margin: 2rem 0 0 0;
 }
