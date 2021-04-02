@@ -1,14 +1,20 @@
 import "./App.scss";
 import MainPage from "../MainPage/index";
-import Skills from "../../Components/Skills/index";
-import { Element } from "react-scroll";
+import Work from "../Work/index";
+import { Route } from "react-router";
+
 function App() {
   return (
     <div className="App">
-      <MainPage />
-      <Element name="skills" className="skills-element">
-        <Skills />
-      </Element>
+      <Route exact path="/">
+        <MainPage />
+      </Route>
+      <Route exact path="/work">
+        <Work />
+      </Route>
+      <Route exact path="/sandbox"></Route>
+      <Route exact path="/film"></Route>
+      <Route exact path="/current-projects"></Route>
     </div>
   );
 }
