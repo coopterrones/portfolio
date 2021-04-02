@@ -1,8 +1,7 @@
 import React from "react";
 import Nav from "../Nav/index";
-import logo from "../../Assets/logo.png";
+import FooterNav from "../FooterNav/index";
 import "./MainPage.scss";
-import NarrativeCard from "../NarrativeCard/index";
 import BackgroundArt from "../BackgroundArt/index";
 import {
   Link,
@@ -12,11 +11,12 @@ import {
   scrollSpy,
   scroller,
 } from "react-scroll";
+import SocialNav from "../SocialNav/index";
 
 const MainPage = () => {
   return (
-    <Element name="main" className="main-page-wrapper">
-      <Link
+    <section name="main" className="main-page-wrapper">
+      {/* <Link
         to="main"
         spy={true}
         smooth={true}
@@ -25,11 +25,12 @@ const MainPage = () => {
         activeClass="active-scroll-link"
         delay={1000}>
         <img className="coop-logo" src={logo} height="150px" width="150px" />
-      </Link>
+      </Link> */}
       <Nav />
       <BackgroundArt />
-      <NarrativeCard />
-    </Element>
+      <SocialNav></SocialNav>
+      <FooterNav></FooterNav>
+    </section>
   );
 };
 

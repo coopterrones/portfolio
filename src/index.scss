@@ -1,6 +1,7 @@
 html {
   height: 100vh;
   width: 100vw;
+  cursor: none;
 }
 
 body {
@@ -11,9 +12,4 @@ body {
     Helvetica, Arial, "Lucida Grande", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }
