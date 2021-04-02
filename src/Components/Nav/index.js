@@ -5,11 +5,13 @@ import { Link } from "react-router-dom";
 const Nav = () => {
   return (
     <div className="nav-bar">
-      <Link to="/skills" className="scroll-link">
+      <Link to="/" className="scroll-link">
         placeholderLogo
         <div className="active-dot-1 hidden"></div>
       </Link>
-      <a href="mailto:cooper.terrones@outlook.com?Subject=Hi Coop!">get in touch.</a>
+      <a href="mailto:cooper.terrones@outlook.com?Subject=Hi Coop!">
+        get in touch.
+      </a>
     </div>
   );
 };
