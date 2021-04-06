@@ -2,6 +2,7 @@ import "./App.scss";
 import MainPage from "../MainPage/index";
 import Work from "../Work/index";
 import { Route } from "react-router";
+import Nav from "../Nav";
 
 function App() {
   return (
