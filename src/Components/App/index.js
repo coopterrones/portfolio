@@ -2,7 +2,8 @@ import "./App.scss";
 import MainPage from "../MainPage/index";
 import Work from "../Work/index";
 import { Route } from "react-router";
-import Nav from "../Nav";
+import Grid from "../Grid";
+import WorkDetails from "../WorkDetails";
 
 function App() {
   return (
@@ -13,9 +14,15 @@ function App() {
       <Route exact path="/work">
         <Work />
       </Route>
-      <Route exact path="/sandbox"></Route>
+      <Route exact path="/sandbox">
+        <Grid />
+      </Route>
       <Route exact path="/film"></Route>
       <Route exact path="/current-projects"></Route>
+      <Route exact path="/work-canoe-club">
+        <WorkDetails />
+      </Route>
+      <Route exact path="/work-poppn-co"></Route>
     </div>
   );
 }
