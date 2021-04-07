@@ -20,9 +20,11 @@ function App() {
       <Route exact path="/film"></Route>
       <Route exact path="/current-projects"></Route>
       <Route exact path="/work-canoe-club">
-        <WorkDetails />
+        <WorkDetails name="Canoe Club" />
       </Route>
-      <Route exact path="/work-poppn-co"></Route>
+      <Route exact path="/work-poppn-co">
+        <WorkDetails name="Poppn Co." />
+      </Route>
     </div>
   );
 }

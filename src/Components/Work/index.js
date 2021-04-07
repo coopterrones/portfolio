@@ -18,9 +18,9 @@ const Work = () => {
             </Link>
           </li>
           <li className="work-list-item">
-            <Link className="list-link" to="/work-poppn-co-work">
+            <Link className="list-link" to="/work-poppn-co">
               <span>02.</span>
-              <h2>Poppn. Co</h2>
+              <h2>Poppn Co.</h2>
             </Link>
           </li>
         </ul>
