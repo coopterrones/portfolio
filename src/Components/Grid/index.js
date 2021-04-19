@@ -6,7 +6,7 @@ import "./Grid.scss";
 
 const Grid = () => {
   return (
-    <section className="grid-items-container">
+    <section className="grid-container">
       <Nav />
       <div className="grid-items-container"></div>
       <SocialNav></SocialNav>
