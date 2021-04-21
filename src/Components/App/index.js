@@ -19,7 +19,7 @@ function App() {
         <title>Cooper Terrones Design</title>
       </Helmet>
       <Switch>
-        <Route exact path="/" component={<MainPage />} />
+        <Route exact path="/index.html" component={<MainPage />} />
         <Route exact path="/work" component={<Work />} />
         <Route
           exact
