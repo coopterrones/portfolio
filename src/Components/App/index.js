@@ -19,39 +19,39 @@ function App() {
         <title>Cooper Terrones Design</title>
       </Helmet>
       <Switch>
-        <Route exact path="/" render={() => <MainPage />} />
-        <Route exact path="/work" render={() => <Work />} />
+        <Route exact path="/" component={<MainPage />} />
+        <Route exact path="/work" component={<Work />} />
         <Route
           exact
           path="/sandbox"
-          render={() => (
+          component={
             <Grid
               header="This is my sandbox. A safe space to experiment and flex my imagination."
               subheader="A place
           to let my mind wander and grow."
               items={sandboxItems}
             />
-          )}
+          }
         />
         <Route
           exact
           path="/film"
-          render={() => (
+          component={
             <Grid
               header="The beauty of film lies in the finite. The comfort in the imperfection."
               subheader="Film captures the emotion of which a sensor could never recreate."></Grid>
-          )}
+          }
         />
         <Route exact path="/current-projects"></Route>
         <Route
           exact
           path="/work-canoe-club"
-          render={() => <WorkDetails name="Canoe Club" />}
+          component={<WorkDetails name="Canoe Club" />}
         />
         <Route
           exact
           path="/work-poppn-co"
-          render={() => <WorkDetails name="Poppn Co." />}
+          component={<WorkDetails name="Poppn Co." />}
         />
       </Switch>
     </div>
