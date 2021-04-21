@@ -7,7 +7,7 @@ import Favicon from "react-favicon";
 import coopLogo from "./Assets/cooplogobg.png";
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/">
     <App />
     <Favicon url={coopLogo} />
   </BrowserRouter>,
