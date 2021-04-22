@@ -43,6 +43,5 @@
   },
   "devDependencies": {
     "node-sass": "^5.0.0"
-  },
-  "homepage": ""
+  }
 }
