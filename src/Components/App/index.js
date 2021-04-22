@@ -19,7 +19,6 @@ function App() {
         <title>Cooper Terrones Design</title>
       </Helmet>
       <Switch>
-        <Route exact path="/" render={() => <MainPage />} />
         <Route exact path="/work" render={() => <Work />} />
         <Route
           exact
@@ -28,7 +27,7 @@ function App() {
             <Grid
               header="This is my sandbox. A safe space to experiment and flex my imagination."
               subheader="A place
-          to let my mind wander and grow."
+            to let my mind wander and grow."
               items={sandboxItems}
             />
           )}
@@ -53,6 +52,7 @@ function App() {
           path="/work-poppn-co"
           render={() => <WorkDetails name="Poppn Co." />}
         />
+        <Route exact path="/" render={() => <MainPage />} />
       </Switch>
     </div>
   );
