@@ -5,7 +5,7 @@ import App from "./Components/App/index.js";
 import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
-  <BrowserRouter basename="https://www.coop.design">
+  <BrowserRouter basename="/">
     <App />
   </BrowserRouter>,
   document.getElementById("root")
